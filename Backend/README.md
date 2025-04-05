@@ -38,8 +38,6 @@ This is the backend for a Task Flow Manager application, built with Node.js, Exp
 
 ## API Endpoints
 
-### Tasks
-
 - **GET** `/api/tasks` - Get all tasks
 - **POST** `/api/tasks` - Create a new task
 - **PUT** `/api/tasks/:id` - Update a task by ID

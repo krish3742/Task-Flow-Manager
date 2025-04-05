@@ -1,7 +1,5 @@
 # Task Flow Manager
 
-## Description
-
 Task Flow Manager is a full-stack MERN application designed to manage tasks efficiently. It allows users to create, read, update, and delete tasks, represented visually using React Flow as nodes in a flowchart. The frontend is built using React.js and Material-UI, while the backend uses Express.js with a MongoDB database for storing tasks.
 
 This project was developed as part of the following requirements:
@@ -86,7 +84,13 @@ Task-Flow-Manager/
 - **Node.js** (v14 or later)
 - **MongoDB** (Local or Atlas)
 
-### 1. Backend Setup
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/krish3742/Task-Flow-Manager.git
+```
+
+### 2. Backend Setup
 
 ```bash
 npm install
@@ -108,7 +112,7 @@ npm start
 
 This starts the backend server at `http://localhost:3005`.
 
-### 2. Frontend Setup
+### 3. Frontend Setup
 
 ```bash
 npm install
