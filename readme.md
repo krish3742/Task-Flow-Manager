@@ -81,52 +81,36 @@ Task-Flow-Manager/
 
 ## Installation & Setup
 
-### Prerequisites
+### 1. Prerequisites
 
 - **Node.js** (v14 or later)
 - **MongoDB** (Local or Atlas)
 
-### 1. Clone the repository
+### 2. Clone the repository
 
 ```bash
 git clone https://github.com/krish3742/Task-Flow-Manager.git
 ```
 
-### 2. Backend Setup
+### 3. Backend Setup
 
-```bash
-npm install
-```
+1. Go to the backend folder:
 
-- **Create a `.env` file** in the `backend` directory with the following:
+   ```bash
+   cd .\Backend\
+   ```
 
-```env
- PORT=3005
-    CONNECTION_STRING=MongoDB_Connection_String
-    CORS_ORIGIN_URL=Frontend_URL
-```
+2. Follow the instructions in the `README.md` file inside the `backend` folder for further setup.
 
-- **Start the Backend Server**
+### 4. Frontend Setup
 
-```bash
-npm start
-```
+1. Go to the frontend folder:
 
-This starts the backend server at `http://localhost:3005`.
+   ```bash
+   cd .\frontend\
+   ```
 
-### 3. Frontend Setup
-
-```bash
-npm install
-```
-
-- **Start the Frontend Development Server**
-
-```bash
-npm start
-```
-
-This starts the frontend server at `http://localhost:3000`.
+2. Follow the instructions in the `README.md` file inside the `frontend` folder for further setup.
 
 ---
 
